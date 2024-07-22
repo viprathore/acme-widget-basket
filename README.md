@@ -62,7 +62,7 @@ echo $basket->total();  // Output: 37.85
 $basket = new Basket($products, $deliveryCharges, $offers);
 $basket->add('R01');
 $basket->add('R01');
-echo $basket->total();  // Output: 54.37
+echo $basket->total();  // Output: 54.38
 
 $basket = new Basket($products, $deliveryCharges, $offers);
 $basket->add('R01');
@@ -75,5 +75,5 @@ $basket->add('B01');
 $basket->add('R01');
 $basket->add('R01');
 $basket->add('R01');
-echo $basket->total();  // Output: 98.27
+echo $basket->total();  // Output: 98.28
 
